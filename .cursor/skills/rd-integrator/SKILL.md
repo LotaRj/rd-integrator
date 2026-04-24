@@ -31,7 +31,7 @@ Se o RD só aceitar um bloco, **inline também o CSS** (`<style>`) e remova `<li
 
 ## Contrato `POST /convert`
 
-- **URL na LP:** `https://<seu-servidor>/convert` (ajustar em `data-rd-api-url`).
+- **URL na LP:** `https://rd-integrator-production.up.railway.app/convert` (ajustar em `data-rd-api-url`).
 - **Headers:** `Content-Type: application/json`.
 - **Obrigatórios no body:** `lp` (identificador da conversão no RD), `email`, e **`nome` ou `name`**.
 - **Opcionais mapeados no servidor:** `celular` | `mobile_phone` | `phone` → `mobile_phone` no RD; `cidade` | `city` → `city`.
