@@ -1,8 +1,0 @@
-[variables]
-NIXPACKS_INSTALL_CMD = "cd server && npm ci"
-
-[phases.build]
-cmds = ["cd server && npm run build || echo \"No build step\""]
-
-[start]
-cmd = "cd server && npm start"
